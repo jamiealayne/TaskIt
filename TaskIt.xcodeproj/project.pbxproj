@@ -13,6 +13,7 @@
 		266CCAC619DC3E8200702272 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 266CCAC519DC3E8200702272 /* Images.xcassets */; };
 		266CCAC919DC3E8200702272 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 266CCAC719DC3E8200702272 /* LaunchScreen.xib */; };
 		266CCAD519DC3E8200702272 /* TaskItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266CCAD419DC3E8200702272 /* TaskItTests.swift */; };
+		26FF856E19DC4B5C006BAC73 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FF856D19DC4B5C006BAC73 /* TaskCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		266CCACE19DC3E8200702272 /* TaskItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		266CCAD319DC3E8200702272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		266CCAD419DC3E8200702272 /* TaskItTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItTests.swift; sourceTree = "<group>"; };
+		26FF856D19DC4B5C006BAC73 /* TaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				266CCABE19DC3E8200702272 /* AppDelegate.swift */,
 				266CCAC019DC3E8200702272 /* ViewController.swift */,
 				266CCAC219DC3E8200702272 /* Main.storyboard */,
+				26FF856D19DC4B5C006BAC73 /* TaskCell.swift */,
 				266CCAC519DC3E8200702272 /* Images.xcassets */,
 				266CCAC719DC3E8200702272 /* LaunchScreen.xib */,
 				266CCABC19DC3E8200702272 /* Supporting Files */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				266CCAC119DC3E8200702272 /* ViewController.swift in Sources */,
+				26FF856E19DC4B5C006BAC73 /* TaskCell.swift in Sources */,
 				266CCABF19DC3E8200702272 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +411,7 @@
 				266CCADA19DC3E8200702272 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		266CCADB19DC3E8200702272 /* Build configuration list for PBXNativeTarget "TaskItTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				266CCADD19DC3E8200702272 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
